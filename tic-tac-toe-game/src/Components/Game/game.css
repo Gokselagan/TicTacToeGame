@@ -1,0 +1,31 @@
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.game-info > ol {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: #fff;
+}
+
+.move > button {
+border: 1px solid #ECAF74;
+padding: 4px 8px;
+border-radius: 7px;
+cursor: pointer;
+background-color: #9F4C1E;
+color: #fff;
+list-style-type: red;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+}

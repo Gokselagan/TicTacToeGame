@@ -1,0 +1,16 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+margin-top: 20px;
+margin-bottom: 20px;
+border: 1px solid #ECAF74;
+padding: 10px 20px;
+background-color: #9F4C1E;
+color: #fff;
+border-radius: 9px;
+font-size: 20px;
+}
